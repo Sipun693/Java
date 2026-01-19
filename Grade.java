@@ -32,3 +32,38 @@ else
 st.close();
 }
 }
+
+
+//#endregion
+
+// public class Grade {
+
+//     public static void main(String[] args) {
+//         Scanner st = new Scanner(System.in);
+
+//         System.out.print("Enter the number of subjects: ");
+//         int n = st.nextInt();
+
+//         int totalMarks = 0;
+
+//         for (int i = 1; i <= n; i++) {
+//             System.out.print("Enter mark for subject " + i + ": ");
+//             int mark = st.nextInt();
+//             totalMarks += mark;
+//         }
+
+//         float avg = (float) totalMarks / n;
+
+//         if (avg >= 70) {
+//             System.out.println("You get A grade");
+//         } else if (avg >= 60) {
+//             System.out.println("You get B grade");
+//         } else if (avg >= 30) {
+//             System.out.println("You get C grade");
+//         } else {
+//             System.out.println("You get Fail");
+//         }
+
+//         st.close();
+//     }
+// }

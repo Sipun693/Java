@@ -1,0 +1,28 @@
+package ForLoop;
+import java.util.*;
+
+
+public class FibonacciSeries {
+
+    public static void main(String[] args)
+    {
+        Scanner st= new Scanner(System.in);
+        System.out.println("Enter the range");
+        int a= st.nextInt();
+        int b= st.nextInt();
+        int c = 0, d = 1;
+        
+        int sum = c + d;
+        System.out.print("Fibonacci numbers between " + a + " and " + b + ": ");
+        
+        while (sum <= b) {
+            if (sum >= a) {
+                System.out.print(sum + " ");
+            }
+            c = d;
+            d = sum;
+            sum = c + d; // Generate next Fibonacci number
+        }
+        st.close();
+    }
+}        
