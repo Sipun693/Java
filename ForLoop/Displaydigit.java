@@ -1,4 +1,4 @@
-package ForLoop;
+
 import java.util.*;
 public class Displaydigit {
     public static void main(String[] args)

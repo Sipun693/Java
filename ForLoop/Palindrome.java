@@ -1,4 +1,4 @@
-package ForLoop;
+
 import java.util.*;
 
 public class Palindrome {
